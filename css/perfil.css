@@ -1,0 +1,124 @@
+.perfil {
+  background-color: var(--bg-cards);
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  border-radius: 20px;
+}
+
+.perfil p, .perfil span {
+  display: block;
+  margin: 0%;
+}
+
+.perfil img {
+  display: block;
+  border: 2px solid yellow;
+  border-radius: 50%;
+}
+
+.perfil p {
+  margin-top: 30px;
+  font-size: 23px;
+  font-weight: 700;
+
+}
+.perfil span {
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.dados-lista {
+  list-style: none;
+  background-color: var(--bg-cards);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 350px;
+  padding: 32px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.dados-lista a {
+  color: var(--text-color);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.dados-lista img {
+  padding-right: 20px;
+}
+
+
+.tecnologias {
+  background-color: var(--bg-cards);
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  border-radius: 20px;
+  max-width: 350px;
+  padding: 32px;
+}
+
+.tecnologias ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding: 0;
+  padding-left: 10px;
+}
+
+.tecnologias h2 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.tecnologias li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-techs);
+  color: #222;
+  border-radius: 30px;
+  padding: 8px 16px;
+  font-size: 10px;
+}
+
+.experiencia {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-cards);
+  padding: 32px;
+  border-radius: 20px;
+  margin-top: 40px;
+  max-width: 350px;
+}
+
+.experiencia h2, .experiencia ul {
+  margin: 0;
+  padding: 0;
+}
+
+.experiencia li {
+  margin-top: 20px;
+  margin-left: 45px;
+}
+.experiencia li:first-child {
+  margin-top: none;
+}
+
+.experiencia span {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+}
+.experiencia-ano {
+  opacity: 0.8;
+}

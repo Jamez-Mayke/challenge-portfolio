@@ -7,10 +7,6 @@
   --bg-techs: #CB92B1;
 }
 
-.body {
-  font-family: 'Merriweather Sans', sans-serif;
-}
-
 .body-bg-color {
   background-color: var(--body-bg-color);
 }
@@ -23,3 +19,14 @@
 .bg-techs {
   background-color: var(--bg-techs);
 }
+
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+  background-color: var(--body-bg-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 40px;
+}
+
+
+/* grid/flexbox */
