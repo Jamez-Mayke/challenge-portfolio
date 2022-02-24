@@ -1,0 +1,91 @@
+
+.view-projects {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--bg-cards);
+  box-sizing: border-box;
+  height: 86px;
+  padding: 0 30px;
+  border-radius: 20px;
+}
+.view-projects span {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-cards);
+  box-sizing: border-box;
+  padding: 32px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.project-name {
+  display: flex;
+}
+.project-name p {
+  margin: 0;
+}
+
+.project-name img {
+  padding-right: 20px;
+}
+
+.project-info, .project-info div {
+  display: flex;
+}
+
+.project-description {
+  margin-top: 16px;
+}
+
+.project-description p {
+  font-size: 16px;
+  max-width: 45ch;
+  margin: 0;
+}
+
+.project-info {
+  margin-top: 16px;
+  justify-content: space-between;
+}
+.project-info p {
+  margin: 0;
+}
+
+.project-info-l div {
+  margin-right: 30px;
+}
+
+.project-info-l img {
+  margin-right: 10px;
+}
+
+.project-info-r {
+  align-items: center;
+}
+
+.project-complete {
+  width: 14px;
+  height: 14px;
+  background-color: yellowgreen;
+  border-radius: 50%;
+  border: 2px solid yellow;
+  margin-right: 8px;
+}
+
+.posts {
+  margin-top: 20px;
+}

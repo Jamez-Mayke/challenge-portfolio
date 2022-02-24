@@ -30,3 +30,8 @@ body {
 
 
 /* grid/flexbox */
+.container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 60px;
+}
