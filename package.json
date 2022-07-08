@@ -1,0 +1,20 @@
+{
+  "name": "challenge-portfolio",
+  "version": "1.0.0",
+  "description": "## Sobre o desafio <p>Neste desafio você poderá criar uma página web para que seja seu portfolio e currículo. Utilizando HTML e CSS.</p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jamez-Mayke/challenge-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jamez-Mayke/challenge-portfolio/issues"
+  },
+  "homepage": "https://github.com/Jamez-Mayke/challenge-portfolio#readme"
+}
