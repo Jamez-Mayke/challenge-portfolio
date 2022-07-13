@@ -1,0 +1,50 @@
+.recent-posts-title, .published-post {
+    background-color: var( --bg-cards);
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
+    padding: 30px;
+    margin: 20px 0;
+}
+
+.published-post {
+    display: flex;
+    align-items: center;
+}
+
+.published-post img {
+    margin-right: 2rem;
+
+}
+
+.area-post-info {
+    justify-content: center;
+}
+.area-post-info-name {
+    margin-bottom: .8rem;
+}
+
+.area-post-info-name h3 {
+    margin: 0;
+}
+.area-post-info-name span {
+    display: flex;
+    align-items: center;
+    margin-top: .5rem;
+    font-size: .8rem;
+}
+
+.area-post-info-description {
+    display: flex;
+    flex-direction: column;
+}
+.area-post-info-description p {
+    line-height: .4rem;
+}
+.area-post-info-techs-list {
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: .8rem;
+}

@@ -1,0 +1,71 @@
+.projects {
+    display: flex;
+    gap: 1rem;
+    margin: 20px 0;
+    width: 100%;
+}
+.project {
+    width: 50vw;
+    background-color: var( --bg-cards);
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
+    padding: 30px;
+    transition: 500ms
+}
+.project:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 2px orange;
+}
+.project-header {
+    display: flex;
+    align-items: center;
+}
+.project-header img {
+    margin-right: 1rem;
+}
+
+.project-description {
+    margin-bottom: 1.5rem;
+}
+
+.project-description p {
+    flex-wrap: wrap;
+}
+
+.project-data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-data-left-list {
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+    padding: 0;
+}
+
+.project-data-left-list li {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.project-data-tech-list {
+    display: flex;
+    align-items: center;
+}
+
+.project-data-tech-list li {
+    display: flex;
+    align-items: center;
+}
+
+.project-ref-img-tech {
+    width: .8rem;
+    height: .8rem;
+    background-color: greenyellow;
+    border-radius: 50%;
+    border: 2px solid green;
+    margin-right: .6rem;
+}

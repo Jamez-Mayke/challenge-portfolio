@@ -1,124 +1,108 @@
 .perfil {
-  background-color: var(--bg-cards);
-  width: 350px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  padding: 32px;
+  background-color: var( --bg-cards);
   border-radius: 20px;
+  box-shadow: 2px 2px 4px rgb(0, 0, 0);
+  padding: 30px 30px 50px;
 }
-
-.perfil p, .perfil span {
-  display: block;
-  margin: 0%;
+.perfil-foto {
+  margin-bottom: 20px;
 }
-
-.perfil img {
-  display: block;
-  border: 2px solid yellow;
+.perfil-foto img {
+  border: 2px solid #00FF00;
   border-radius: 50%;
 }
 
-.perfil p {
-  margin-top: 30px;
-  font-size: 23px;
-  font-weight: 700;
-
-}
-.perfil span {
-  margin-top: 10px;
-  font-size: 13px;
-  font-weight: 400;
-}
-
-.dados-lista {
-  list-style: none;
-  background-color: var(--bg-cards);
+.perfil-informacao {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  width: 350px;
-  padding: 32px;
-  border-radius: 20px;
-  margin-top: 40px;
-}
-
-.dados-lista a {
-  color: var(--text-color);
-  text-decoration: none;
-  display: flex;
   align-items: center;
+  width: 80%;
 }
-
-.dados-lista img {
-  padding-right: 20px;
+.perfil-informacao p {
+  margin: .4rem;
+  flex-wrap: wrap;
+  text-align: center;
 }
-
-
-.tecnologias {
-  background-color: var(--bg-cards);
-  display: flex;
-  flex-direction: column;
-  margin-top: 40px;
-  border-radius: 20px;
-  max-width: 350px;
-  padding: 32px;
+.perfil-nome {
+  font-size: 20px;
+  font-weight: bold;
 }
-
-.tecnologias ul {
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
-  padding: 0;
-  padding-left: 10px;
-}
-
-.tecnologias h2 {
-  margin: 0;
-  margin-bottom: 20px;
-}
-
-.tecnologias li {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--bg-techs);
-  color: #222;
-  border-radius: 30px;
-  padding: 8px 16px;
-  font-size: 10px;
-}
-
-.experiencia {
-  display: flex;
-  flex-direction: column;
-  background-color: var(--bg-cards);
-  padding: 32px;
-  border-radius: 20px;
-  margin-top: 40px;
-  max-width: 350px;
-}
-
-.experiencia h2, .experiencia ul {
-  margin: 0;
-  padding: 0;
-}
-
-.experiencia li {
-  margin-top: 20px;
-  margin-left: 45px;
-}
-.experiencia li:first-child {
-  margin-top: none;
-}
-
-.experiencia span {
-  display: block;
+.perfil-descricao {
   font-size: 14px;
+}
+
+
+/* Informação Redes */
+.informacoes-pessoais {
+  display: flex;
+  flex-direction: column;
+  background-color: var( --bg-cards);
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgb(0, 0, 0);
+  padding: 30px;
+  list-style: none;
+  margin: 20px 0;
+}
+
+.informacoes-pessoais li {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.informacoes-pessoais li:last-child {
+  margin-bottom: 0;
+}
+.informacoes-pessoais li img {
+  margin-right: .8rem;
+}
+
+
+
+/* Tecnologias */
+.tecnologias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  background-color: var( --bg-cards);
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgb(0, 0, 0);
+  padding: 30px;
+}
+.tecnologias span {
+  min-width: 5rem;
+  text-align: center;
+  flex-wrap: wrap;
+  background-color: var(--bg-techs);
+  padding: .5rem 1rem;
+  border-radius: 1rem;
+  color: #000;
+}
+
+
+/* Experiência */
+.experiencias, .educacao {
+  background-color: var( --bg-cards);
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgb(0, 0, 0);
+  padding: 30px 30px 50px;
+  margin: 1rem 0;
+}
+.experiencia-lista li, .educacao li {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.experiencia-nome-empresa {
+  font-size: 1rem;
   font-weight: 700;
 }
-.experiencia-ano {
-  opacity: 0.8;
+.experiencia-periodo, .experiencia-cargo {
+  font-size: .7rem;
+}
+.experiencia-cargo {
+  font-weight: 500;
 }
